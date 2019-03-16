@@ -25,10 +25,6 @@ body {
     margin-left: 80px;
 }
 
-header {
-    max-width: fill;
-}
-
 h1 {
     color: teal;
     background: #ffffff;
@@ -64,6 +60,15 @@ nav {
 }
 
 header {
+    height: 78px;
+    border-bottom: 2px solid grey;
+    background: white;
+    max-width: fill;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#respec-top {
     height: 78px;
     border-bottom: 2px solid grey;
     background: white;
@@ -111,5 +116,6 @@ h2 {
 .Image {
     float:left;
     padding: 20px;
-   
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
